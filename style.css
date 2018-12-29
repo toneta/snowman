@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b7d3de;
+}
+
+*:before, 
+*:after {
+    content: '';
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.snowman {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60vmin;
+    width: 84vmin;
+}
+
+.head {
+    position: absolute;
+    z-index: 30;
+    top: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 29%;
+    height: 38%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.hat {
+    position: absolute;
+    bottom: 92%;
+    left: 15%;
+    width: 70%;
+    height: 77%;
+    background-color: #921b1f;
+}
+
+.hat:before {
+    position: absolute;
+    top: -24%;
+    left: -23%;
+    width: 58%;
+    height: 122%;
+    background-color: #b7d3de;
+    transform: rotate(30deg);
+}
+
+.hat:after {
+    position: absolute;
+    top: -24%;
+    right: -23%;
+    width: 58%;
+    height: 122%;
+    background-color: #b7d3de;
+    transform: rotate(-30deg);
+}
+
+.hat span {
+    position: absolute;
+    z-index: 50;
+    bottom: 60%;
+    left: 34%;
+    display: block;
+    width: 34%;
+    height: 34%;
+    background-color: #54823a;
+    border-radius: 100%;
+}
+
+.eye {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    display: block;
+    width: 6%;
+    height: 6%;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.eye.one {
+    transform: translateX(-10px);
+}
+
+.eye.two {
+    transform: translateX(20px);
+}
+
+.eye:after {
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 30%;
+    height: 30%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.nose {
+    position: absolute;
+    top: 37%;
+    left: 54%;
+    border-left: 2.5vw solid red;
+    border-top: 1vh solid transparent;
+    border-bottom: 1vh solid transparent;
+    transform: rotate(-3deg);
+}
+
+.mouth {
+    position: absolute;
+    z-index: 10;
+    bottom: 23%;
+    left: 57%;
+    transform: translateX(-50%) rotate(-45deg);
+    display: block;
+    width: 32%;
+    height: 32%;
+    border: 0;
+    border-bottom: 5px solid #000;
+    border-left: 5px solid #000;
+    border-bottom-left-radius: 400px;
+}
+
+.body {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45%;
+    height: 65%;
+    border-radius: 50%;
+    background-color: #fff;
+}
