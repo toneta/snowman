@@ -304,12 +304,8 @@ body {
     width: 5px;
     height: 5px;
     border-radius: 50%;
-    background-color: #fefefe;
-
-    animation-name: snow;
-    animation-duration: 8000ms;
-    animation-iteration-count: infinite;
-
+    background-color: rgba(255, 255, 255, 0.7);
+    animation: snow 8000ms infinite;
     opacity: 0;
     position: absolute;
     top: 0;
@@ -543,6 +539,12 @@ body {
     animation-delay: 6200ms;
 }
 
+.snowflake40 {
+    left: 94%;
+    transform: translate(5vh);
+    animation-delay: 7000ms;
+}
+
 @keyframes smoke {
   10% {
     left: -50%;
@@ -606,6 +608,6 @@ body {
     }
 
     80%{
-        transform: translate3d(0, 85vh, 0) scale(1.2);
+        transform: translate3d(0, 95vh, 0) scale(1.2);
     }
 }
