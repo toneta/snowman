@@ -63,7 +63,7 @@ body {
     overflow: hidden;
 }
 
-.snowman {
+.snowman  {
     position: absolute;
     bottom: 0;
     left: 40%;
@@ -292,6 +292,257 @@ body {
     box-shadow: inset -20px 3px 27px 0 #c5f2ed;
 }
 
+.snowflakes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.snowflake {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fefefe;
+
+    animation-name: snow;
+    animation-duration: 8000ms;
+    animation-iteration-count: infinite;
+
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0) translate(0, 0) scale(.2);
+}
+
+.snowflake1 {
+    left: 10%;
+    transform: translate(1vh);
+}
+
+.snowflake2 {
+    left: 20%;
+    transform: translate(1.5vh);
+    animation-delay: 200ms;
+}
+
+.snowflake3 {
+    left: 30%;
+    transform: translate(2vh);
+    animation-delay: 520ms;
+}
+
+.snowflake4 {
+    left: 40%;
+    transform: translate(2.5vh);
+    animation-delay: 999ms;
+}
+
+.snowflake5 {
+    left: 50%;
+    transform: translate(3vh);
+    animation-delay: 150ms;
+}
+
+.snowflake6 {
+    left: 60%;
+    transform: translate(3.5vh);
+    animation-delay: 400ms;
+}
+
+.snowflake7 {
+    left: 70%;
+    transform: translate(4vh);
+    animation-delay: 1550ms;
+}
+
+.snowflake8 {
+    left: 80%;
+    transform: translate(4.5vh);
+    animation-delay: 655ms;
+}
+
+.snowflake9 {
+    left: 86%;
+    transform: translate(5vh);
+    animation-delay: 250ms;
+}
+
+.snowflake10 {
+    left: 55%;
+    transform: translate(5.5vh);
+    animation-delay: 600ms;
+}
+
+.snowflake11 {
+    left: 15%;
+    transform: translate(6vh);
+    animation-delay: 2000ms;
+}
+
+.snowflake12 {
+    left: 25%;
+    transform: translate(6.5vh);
+    animation-delay: 2400ms;
+}
+
+.snowflake13 {
+    left: 35%;
+    transform: translate(7vh);
+    animation-delay: 2999ms;
+}
+
+.snowflake14 {
+    left: 45%;
+    transform: translate(7.5vh);
+    animation-delay: 1300ms;
+}
+
+.snowflake15 {
+    left: 55%;
+    transform: translate(8vh);
+    animation-delay: 2150ms;
+}
+
+.snowflake16 {
+    left: 65%;
+    transform: translate(8.5vh);
+    animation-delay: 2140ms;
+}
+
+.snowflake17 {
+    left: 75%;
+    transform: translate(5.5vh);
+    animation-delay: 2600ms;
+}
+
+.snowflake18 {
+    left: 84%;
+    transform: translate(5.5vh);
+    animation-delay: 2666ms;
+}
+
+.snowflake19 {
+    left: 89%;
+    transform: translate(5.5vh);
+    animation-delay: 2200ms;
+}
+
+.snowflake20 {
+    left: 10%;
+    transform: translate(5.5vh);
+    animation-delay: 2400ms;
+}
+
+.snowflake21 {
+    left: 20%;
+    transform: translate(5.5vh);
+    animation-delay: 3200ms;
+}
+
+.snowflake22 {
+    left: 30%;
+    transform: translate(5.5vh);
+    animation-delay: 3500ms;
+}
+
+.snowflake24 {
+    left: 40%;
+    transform: translate(2.5vh);
+    animation-delay: 3999ms;
+}
+
+.snowflake25 {
+    left: 50%;
+    transform: translate(3vh);
+    animation-delay: 3150ms;
+}
+
+.snowflake26 {
+    left: 60%;
+    transform: translate(3.5vh);
+    animation-delay: 3400ms;
+}
+
+.snowflake27 {
+    left: 70%;
+    transform: translate(4vh);
+    animation-delay: 4550ms;
+}
+
+.snowflake28 {
+    left: 79%;
+    transform: translate(4.5vh);
+    animation-delay: 3655ms;
+}
+
+.snowflake29 {
+    left: 86%;
+    transform: translate(5vh);
+    animation-delay: 3250ms;
+}
+
+.snowflake30 {
+    left: 55%;
+    transform: translate(5.5vh);
+    animation-delay: 4600ms;
+}
+
+.snowflake31 {
+    left: 15%;
+    transform: translate(6vh);
+    animation-delay: 6000ms;
+}
+
+.snowflake32 {
+    left: 25%;
+    transform: translate(6.5vh);
+    animation-delay: 6400ms;
+}
+
+.snowflake33 {
+    left: 35%;
+    transform: translate(7vh);
+    animation-delay: 6999ms;
+}
+
+.snowflake34 {
+    left: 45%;
+    transform: translate(7.5vh);
+    animation-delay: 5300ms;
+}
+
+.snowflake35 {
+    left: 55%;
+    transform: translate(8vh);
+    animation-delay: 6150ms;
+}
+
+.snowflake36 {
+    left: 65%;
+    transform: translate(8.5vh);
+    animation-delay: 6140ms;
+}
+
+.snowflake37 {
+    left: 75%;
+    transform: translate(5.5vh);
+    animation-delay: 6600ms;
+}
+
+.snowflake38 {
+    left: 83%;
+    transform: translate(5.5vh);
+    animation-delay: 6666ms;
+}
+
+.snowflake39 {
+    left: 89%;
+    transform: translate(5.5vh);
+    animation-delay: 6200ms;
+}
+
 @keyframes smoke {
   10% {
     left: -50%;
@@ -346,5 +597,15 @@ body {
 
     100% {
         top: 20%;
+    }
+}
+
+@keyframes snow {
+    10%{
+        opacity: 1
+    }
+
+    80%{
+        transform: translate3d(0, 85vh, 0) scale(1.2);
     }
 }
